@@ -1,0 +1,41 @@
+let auswahl = 'Schere';
+let enemySelection = 'Stein'
+
+console.log('Deine Auswahl: ' + auswahl);
+console.log('Dein Gegner: ' + enemySelection);
+
+if(Selection == enemySelection) {
+    console.log('UNenschiden');
+}
+
+if(Selection == 'Schere') 
+    if(enemySelection == 'Stein') {
+        console.log('Du hast verloren');
+    }
+
+    if(enemySelection == 'Papier') {
+        console.log('Du hast Gewonnen');
+    }
+
+
+if(Selection == 'Stein') 
+    if(enemySelection == 'Schere') {
+        console.log('Du hast Gewonnen');
+    }
+
+
+    if(enemySelection == 'Papier') {
+        console.log('Du hast Verloren');
+    }
+
+
+
+    if(Selection == 'Papier') 
+        if(enemySelection == 'Schere') {
+            console.log('Du hast Verloren');
+        }
+    
+    
+        if(enemySelection == 'Stein') {
+            console.log('Du hast Gewonnen');
+        }
